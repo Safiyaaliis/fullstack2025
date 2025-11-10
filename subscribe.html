@@ -8,14 +8,23 @@
        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="main.css">
 </head>
-<body>
-<nav>
- <a href="index.html"><b>drinks & mocktails</b></a>
- <br>
- <a href="about.html"><b>about</b></a>
- <br>
-</nav>
 
+<body>
+<header>
+<nav class="nav">
+
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+  <label for="menu-toggle" class="hamburger-btn" aria-label="Öppna meny">☰</label>
+
+  <ul class="nav-links">
+    <li><a href="index.html"><b>drinks & mocktails</b></a></li>
+    <li><a href="about.html"><b>about</b></a></li>
+    <li><a href="subscribe.html"><b>subscribe</b></a></li>
+  </ul>
+
+</nav>
+ </header>
 
 <h3>Subscribe to get the newest mocktail recipes!</h3>
 <p>Your go-to source for the latest mocktail recipes.</p>
@@ -30,3 +39,8 @@
  <input type="email" id="email" name="email" required>
  <button type="submit">Subscribe</button>
 </form>
+
+
+
+</body>
+</html>
